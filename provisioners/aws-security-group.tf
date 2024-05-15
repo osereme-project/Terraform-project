@@ -1,7 +1,8 @@
-resource "aws_security_group" "project_server_1_sg" {
+# Don't use this security group
+/* resource "aws_security_group" "project_server_1_sg" {
   name        = "project_server_1_sg"
   description = "project_server_1 security group"
-  vpc_id      = "vpc-0f212443905033eff"
+  vpc_id      = "" #add your vpc id
 }
 
 resource "aws_vpc_security_group_ingress_rule" "SSH" {
@@ -32,4 +33,4 @@ resource "aws_vpc_security_group_egress_rule" "project_server_1_sg_ipv6" {
   security_group_id = aws_security_group.project_server_1_sg.id
   cidr_ipv6         = "::/0"
   ip_protocol       = "-1" # semantically equivalent to all ports
-}
+} */
