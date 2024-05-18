@@ -1,5 +1,6 @@
 # Using a single workspace:
 terraform {
+  /*
   backend "remote" {
     hostname     = "app.terraform.io"
     organization = "Devs-Project"
@@ -8,6 +9,7 @@ terraform {
       name = "Day-0"
     }
   }
+  */
 
   required_providers {
     aws = {

@@ -1,1 +1,17 @@
 .terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+aws_sg.tf
+aws-key-pair.tf
+aws-remote-backend.tf
+aws-vpc.tf
+aws-vpc-cidr-block-ipv4.tf
+data-source.tf
+ec2-instance-resource.tf
+null-resource.tf
+output.tf
+provider.tf
+userdata.yaml
+user-data-template.tf
