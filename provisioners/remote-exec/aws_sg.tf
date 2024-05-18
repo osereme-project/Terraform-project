@@ -20,7 +20,7 @@ resource "aws_security_group" "project_server_1_sg" {
       from_port        = 22
       to_port          = 22
       protocol         = "tcp"
-      cidr_blocks      = ["99.231.231.156/32"]
+      cidr_blocks      = ["ip address"]
       ipv6_cidr_blocks = []
       prefix_list_ids  = []
       security_groups  = []
