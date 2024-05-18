@@ -5,10 +5,6 @@ resource "aws_instance" "project_server_1" {
 # Using variables
   instance_type = var.instance_type
 
-
-# Local
-  Name = "project_server_1-${local.project_name}"
-
  instance_type = "t2.micro"
 
   tags = {
