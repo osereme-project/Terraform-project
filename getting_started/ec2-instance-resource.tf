@@ -3,21 +3,18 @@ resource "aws_instance" "project_server_1" {
   instance_type = "t2.micro"
  
 # Using variables
-#  instance_type = var.instance_type
+  instance_type = var.instance_type
 
 
 # Local
-#  Name = "project_server_1-${local.project_name}"
+  Name = "project_server_1-${local.project_name}"
 
-# instance_type = "t2.micro"
- 
-# Using variables
-#  instance_type = var.instance_type
+ instance_type = "t2.micro"
 
   tags = {
    Name = "project_server_1"
 
 # Local
-#  Name = "project_server_1-${local.project_name}"
+  Name = "project_server_1-${local.project_name}"
   }
 }
