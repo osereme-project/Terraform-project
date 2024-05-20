@@ -13,7 +13,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Data source for aws instance
+# Data source for aws instances
 data "aws_ami" "ubuntu" {
   most_recent = true
 
