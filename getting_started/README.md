@@ -1,12 +1,15 @@
 # Project configuration
 
-# Day 0:
-# 1. Installed the following application:
+# Day 0
+
+# 1. Installed the following application
+
     * Git
     * Terraform
     * AWS CLI
 
-# 2. Configure the following application:
+# 2. Configure the following application
+
     * Git: 
            Open a Repo Account.
            Create a organization and a project.
@@ -25,10 +28,6 @@
            Run the terraform --version to check if terraform was installed correctly.
            Open the terminal where terraform was installed.
            Create a new directory{optional}.
-           
-
-
-
 
 Generate a token using your browser, and copy-paste it into this prompt.
 
