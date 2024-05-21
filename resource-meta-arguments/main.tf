@@ -45,6 +45,6 @@ module "vpc" {
 
 
 output "private_ip_addr" {
-  value       = aws_instance.project_server_1.private_ip
+  value       = aws_instance.project_server_1.private_ip_addr
 }
 
