@@ -1,0 +1,7 @@
+Terraform Module to provisionan EC2 Instance that is running Apache.
+
+Not intended for production use. Just showcasing how to create a custommodule on Terraform Registry
+
+'''hcl
+
+'''

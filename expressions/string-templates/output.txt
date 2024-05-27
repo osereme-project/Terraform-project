@@ -1,0 +1,16 @@
+hello="world"
+
+$ terraform console
+> "Hello World"
+"Hello World"
+> "Hello World \n"
+<<EOT
+Hello World
+
+EOT
+> "Hello ${var.hello}!"
+
+name="barsoon"
+$ terraform console
+> "Name %{if var.name == "barsoon"}Mars%{else}World%{endif}"
+"Name Mars"
