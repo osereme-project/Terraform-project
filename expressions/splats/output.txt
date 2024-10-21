@@ -1,0 +1,28 @@
+akins@Victoria MINGW64 /c/Terraform/Project/Terraform-project/expressions/splats (main)
+$ terraform console
+> var.worlds
+tolist([
+  {
+    "earth_name" = "mars"
+    "mars_name" = "barsoon"
+  },
+  {
+    "earth_name" = "earth"
+    "mars_name" = "jasoom"
+  },
+  {
+    "earth_name" = "jupiter"
+    "mars_name" = "sasoom"
+  },
+  {
+    "earth_name" = "venus"
+    "mars_name" = "cosoom"
+  },
+])
+> [for m in var.worlds : m.mars_name]
+[
+  "barsoon",
+  "jasoom",
+  "sasoom",
+  "cosoom",
+]
